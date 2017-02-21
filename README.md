@@ -1,2 +1,2 @@
-# mobile-device-description
+# Mobile Device Description
 Mobile device descriptions
