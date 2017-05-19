@@ -1,0 +1,10 @@
+[ignore]
+
+[include]
+
+[libs]
+types/
+
+[options]
+module.name_mapper='^\(.*\)\.css$' -> '<PROJECT_ROOT>/CSSModule.js.flow'
+module.system=haste

@@ -1,0 +1,38 @@
+{
+  "name": "mobile-device-description",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Struan",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "fonoapi-nodejs": "^0.1.1",
+    "instructure-ui": "^1.4.2",
+    "next": "^2.0.1",
+    "next-redux-wrapper": "^1.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-virtualized": "^9.7.3",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.0.1",
+    "redux-api-middleware": "^1.0.2",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^1.4.4",
+    "tachyons-js": "^0.2.0",
+    "unfetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "faucet": "^0.0.1",
+    "proxyquire": "^1.7.11",
+    "react-addons-test-utils": "^15.5.1",
+    "redux-logger": "^3.0.1",
+    "tape": "^4.6.3",
+    "tape-watch": "^2.3.0"
+  }
+}

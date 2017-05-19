@@ -1,0 +1,16 @@
+{
+    "presets": [
+        "next/babel"
+    ],
+    "plugins": [
+      [
+        "css-modules-transform", {
+          "preprocessCss": "./css-pre-processor.js",
+          "extensions": [".css", ".sass"],
+          "ignore": "*.local.*",
+          "extractCss": "./static/bundle.css",
+          "generateScopedName": "[local]"
+        }
+      ]
+    ]
+}
